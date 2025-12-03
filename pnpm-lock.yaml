@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      mavenagi:
+        specifier: ^1.2.3
+        version: 1.2.9
       next:
         specifier: 14.2.5
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -898,6 +901,10 @@ packages:
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
+
+  mavenagi@1.2.9:
+    resolution: {integrity: sha512-fvTd4dOc7EWBGzL3frcI/V0CJsbyJAKRRbQAv3RtOVUF4wKTnn+sq0Z++8h4l4VDzwhqRj4FmqhlVf11HXXtyQ==}
+    engines: {node: '>=18.0.0'}
 
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -2358,6 +2365,8 @@ snapshots:
       js-tokens: 4.0.0
 
   lru-cache@10.4.3: {}
+
+  mavenagi@1.2.9: {}
 
   merge2@1.4.1: {}
 
