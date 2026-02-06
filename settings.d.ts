@@ -1,4 +1,4 @@
 declare global {
   interface AppSettings {}
 }
-export {};
+export {}
